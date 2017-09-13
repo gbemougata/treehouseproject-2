@@ -12,14 +12,16 @@ a:link {
 
 .nav-container {
 	list-style-type: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
 }
 
 .nav-container li {
 	text-align: center;
-	font-family: 'Archivo', sans-serif;
 	font-size: 16px;
 	font-weight: normal;
 	margin: 10px;
+	text-shadow: 2px 2px 2px;
 }
 
 .name {
@@ -84,11 +86,9 @@ body {
 		margin: 35px 60px 25px 0px;
 	}
 	.profile-header {
-		float: right;
-		max-width: 200px;
-		margin-left: 10px;
-		margin-top: 15px;
-		margin-bottom: 15px;
+		text-align: center;
+		max-width:1000px;
+
 	}
 	.top {
 		display: none;
@@ -98,12 +98,19 @@ body {
 		float: right;
 	}
 	.nav-container li {
-		display: inline-block;
+		text-align: center;
+
 	}
 	.main-nav {
 		margin-bottom: 55px;
+		text-align: center;
 	}
 	.profile-header {
+		float:right;
+		max-width:200px;
+		margin-left:10px;
+		margin-top:15px;
+		margin-bottom:15px;
 		margin-right: 70px;
 	}
 	a:hover {
@@ -125,7 +132,8 @@ body {
 		float: left;
 	}
 	.name .hidden-nav {
-		display: inline-block;
+		display:block;
+		margin-bottom:10px;
 	}
 	.footer-container li {
 		height: 24px;
@@ -133,13 +141,10 @@ body {
 		margin: 10px;
 	}
 	.name {
-		float: left;
-		margin-top: 4px;
+		text-align: center;
+
 	}
-	.nav-container li {
-		float: right;
-		margin-left: 20px;
-	}
+
 }
 
 @media (min-width:1024px) {
